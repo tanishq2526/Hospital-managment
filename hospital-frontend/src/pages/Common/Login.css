@@ -1,0 +1,53 @@
+/* src/pages/Common/Login.css */
+
+.auth-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--background);
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: var(--color-accent);
+  filter: drop-shadow(0 0 3px var(--color-accent));
+}
+
+form {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  transition: all ease-in-out 0.5s;
+}
+
+input {
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+}
+
+button {
+  background-color: var(--color-accent);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--color-border);
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+}

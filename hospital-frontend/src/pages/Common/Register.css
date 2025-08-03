@@ -1,0 +1,64 @@
+/* src/pages/Common/Register.css */
+
+.auth-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--background);
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: var(--color-accent);
+  filter: drop-shadow(0 0 10px var(--color-accent));
+
+}
+
+form {
+  background: var(--color-text);
+  padding: 30px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px #ccc; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+form:hover{
+  
+  filter: drop-shadow(0 0 10px white);
+}
+
+input {
+  padding: 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+
+button {
+  background-color: var(--color-accent);
+  color: var(--color-btn-text);
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--color-border);
+  color: #ccc;
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+}
+select {
+  padding: 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}

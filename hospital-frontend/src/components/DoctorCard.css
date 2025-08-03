@@ -1,0 +1,54 @@
+:root {
+  --color-accent: #38bdf8;
+  --color-text-light: #e2e8f0;
+  --color-btn-text: #1e293b;
+  --color-border: #0369a1;
+}
+
+.doctor-card {
+  display: flex;
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 2px solid var(--color-border);
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 40px;
+  box-sizing: border-box;
+}
+
+.doctor-img {
+width: 220px;
+height: auto;
+max-height: 300px;
+border-radius: 12px;
+object-fit: cover;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+flex-shrink: 0;
+}
+
+.doctor-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  gap: 18px;
+}
+
+.doctor-details p {
+  font-size: 16px;
+  color: var(--color-btn-text);
+  font-weight: 500;
+  margin: 0;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.doctor-details p strong {
+  color: var(--color-accent);
+  margin-right: 10px;
+}

@@ -1,0 +1,40 @@
+/* src/pages/Common/Home.css */
+
+.home-container {
+  height: 100vh;
+  background: linear-gradient(90deg, #4b6cb7 0%, #233d72 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 40px;
+  color: white;
+
+}
+
+.btn-container {
+  display: flex;
+  gap: 20px;
+}
+
+.home-btn {
+  background-color: white;
+  color: #182848;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.home-btn:hover {
+  background-color: #eaeaea;
+  transform: scale(1.05);
+}

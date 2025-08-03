@@ -1,0 +1,28 @@
+/* src/index.css */
+
+:root {
+  --color-accent: #38bdf8;
+  --color-text: #e2e8f0;
+  --color-btn-text: #1e293b;
+  --color-border: #0369a1;
+  --background: linear-gradient(90deg, #4b6cb7 0%, #233d72 100%);
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+h1 {
+  color: var(--color-accent);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
